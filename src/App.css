@@ -1,0 +1,88 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  border-radius: 60px;
+}
+
+.app > div {
+  background-color: rgb(197, 183, 166);
+  width: 200px;
+  height: 50px;
+  font-size:x-large; 
+}
+
+.app > div:hover {
+  background-color: rgb(178, 146, 103);
+}
+
+.conteiner {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+  min-height: 350px;
+  margin-left: 200px;
+}
+
+.conteiner > div {
+  background-color: rgb(178, 146, 103);
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.listado {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.listado > button {
+  height: 30px;
+}
+
+.button {
+  height: 30px;
+  background-color: rgb(197, 183, 166);
+  width: 150px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 200px;
+  border-radius: 60px;
+}
+
+.button:hover {
+  background-color: rgb(178, 146, 103);
+}
+
+.entidad {
+  background-color: rgb(197, 183, 166);
+}
+
+.entidad:hover {
+  background-color: rgb(105, 96, 85);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form > select {
+  height: 30px;
+}
+
+.form > input {
+  height: 30px;
+}
+
+.form > button {
+  height: 30px;
+}
